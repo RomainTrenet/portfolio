@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;AAOA,EAAG;EAAE,IAAI,EAAE,mCAAmC;;;AAC9C,kBAAmB;EAAE,IAAI,EAAE,mCAAmC;;;AAC9D,EAAE;EAAE,IAAI,EAAE,qCAAqC;;;AAE/C;4BAC6B;EAAE,MAAM,EAAE,KAAK",
+"sources": ["../sass/portfolio-v1-alpha-default-wide.scss"],
+"names": [],
+"file": "portfolio-v1-alpha-default-wide.css"
+}

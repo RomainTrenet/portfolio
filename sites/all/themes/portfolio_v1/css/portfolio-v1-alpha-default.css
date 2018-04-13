@@ -1,0 +1,373 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/*
+ * 
+ * 	Global
+ * 
+ * */
+/*Title*/
+/* line 15, ../sass/portfolio-v1-alpha-default.scss */
+h1 {
+  font: 36px 'ArvoRegular', Arial, sans-serif;
+  color: #787878; }
+
+/* line 16, ../sass/portfolio-v1-alpha-default.scss */
+h2,
+h2.block-title {
+  font: 30px 'ArvoRegular', Arial, sans-serif;
+  color: #222222;
+  margin-bottom: 10px; }
+
+/* line 18, ../sass/portfolio-v1-alpha-default.scss */
+h3 {
+  font: 18px 'ArvoRegular', Arial, sans-serif;
+  color: #222222; }
+
+/* line 19, ../sass/portfolio-v1-alpha-default.scss */
+h4 {
+  font: 14px 'ArvoRegular', Arial, sans-serif;
+  color: #787878; }
+
+/* line 22, ../sass/portfolio-v1-alpha-default.scss */
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  -moz-box-sizing: border-box;
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border-color: #848484 #C1C1C1 #E1E1E1;
+  border-image: none;
+  border-radius: 0 0 0 0;
+  border-style: solid;
+  border-width: 1px;
+  color: #222222;
+  font: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  height: 1.8em;
+  outline: 0 none;
+  padding: 2px 3px; }
+
+/* line 25, ../sass/portfolio-v1-alpha-default.scss */
+span.small-format-hiden {
+  display: inline; }
+
+/*
+ * 
+ * 	Section User
+ * 
+ * */
+/* User */
+/*logged*/
+/*unlogged*/
+/*
+ * 
+ * 	Section Header
+ * 
+ * */
+/* line 43, ../sass/portfolio-v1-alpha-default.scss */
+#region-branding {
+  margin-bottom: 30px; }
+
+/* line 44, ../sass/portfolio-v1-alpha-default.scss */
+#zone-branding-wrapper .branding-data {
+  width: 100%;
+  margin: 0; }
+
+/* line 45, ../sass/portfolio-v1-alpha-default.scss */
+#zone-menu-wrapper {
+  margin-bottom: 25px; }
+
+/* line 46, ../sass/portfolio-v1-alpha-default.scss */
+#region-menu {
+  height: 30px; }
+
+/* line 47, ../sass/portfolio-v1-alpha-default.scss */
+#block-block-4 {
+  position: absolute;
+  top: 8px;
+  right: 0; }
+
+/* line 48, ../sass/portfolio-v1-alpha-default.scss */
+#block-block-4 p {
+  text-align: right;
+  color: #ffffff; }
+
+/* line 49, ../sass/portfolio-v1-alpha-default.scss */
+#block-block-4 p a {
+  color: #c4c4c4; }
+
+/* header menu */
+/* 1st level */
+/* line 53, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu {
+  height: 30px;
+  border: 0; }
+
+/* line 54, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li {
+  float: left;
+  height: 30px; }
+
+/* line 55, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li.home_picto {
+  display: block; }
+
+/* line 56, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li.home_picto a {
+  display: block;
+  height: 30px;
+  width: 22px;
+  background: url("../images/bkgd/home-picto.png") no-repeat scroll 10px center #FFFFFF; }
+
+/* line 57, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li.clear {
+  clear: both;
+  height: 30px; }
+
+/* line 58, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li a {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-align: left;
+  border: 0;
+  background-color: transparent; }
+
+/* line 59, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover a {
+  cursor: pointer;
+  background-color: #222222;
+  color: #FFFFFF; }
+
+/* line 60, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li.active a, #header_menu li:hover a, * html #header_menu li a:hover {
+  color: #FFFFFF; }
+
+/* line 61, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li.home_picto.active a, #header_menu li.home_picto:hover a, * html #header_menu li.home_picto a:hover {
+  background-position: -12px center;
+  background-color: #222222; }
+
+/* 2nd level */
+/* line 64, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li ul {
+  position: absolute;
+  top: 30px;
+  padding-top: 0;
+  visibility: hidden; }
+
+/* line 65, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li {
+  width: 220px;
+  position: static;
+  float: none;
+  padding: 0;
+  border: 0;
+  font-size: 0.8em; }
+
+/* line 66, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li.second-menu-top,
+#header_menu li li.second-menu-bottom {
+  display: block;
+  background: url("../images/bkgd/submenu.png") no-repeat scroll 0 8px transparent;
+  background-position: 0 8; }
+
+/* line 68, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li.second-menu-top {
+  height: 30px; }
+
+/* line 69, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li.second-menu-bottom {
+  display: block;
+  height: 12px;
+  background-position: 0 -22px;
+  padding: 0;
+  margin: O; }
+
+/* line 70, ../sass/portfolio-v1-alpha-default.scss */
+* + html #header_menu li li.second-menu-bottom {
+  position: relative;
+  top: -3px; }
+
+/* line 71, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li a {
+  padding: 0px 10px;
+  height: 30px;
+  width: 200px;
+  color: #FFFFFF !important;
+  background-color: #222222; }
+
+/* line 72, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover li a {
+  color: #FFFFFF; }
+
+/* line 73, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover li a, * html #header_menu li li a {
+  color: #FFFFFF; }
+
+/* line 74, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover li:hover a, * html #header_menu li li a:hover, * html #header_menu li li a.hasSubCategories:hover {
+  background-color: #106879; }
+
+/* line 75, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li li div.wrapper {
+  position: relative; }
+
+/* common visibility */
+/* line 78, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover li ul,
+#header_menu li:hover li:hover li ul,
+#header_menu li:hover li:hover li:hover li ul,
+#header_menu li:hover li:hover li:hover li:hover li ul {
+  visibility: hidden; }
+
+/* line 85, ../sass/portfolio-v1-alpha-default.scss */
+#header_menu li:hover ul,
+#header_menu li:hover li:hover ul {
+  visibility: visible; }
+
+/*
+ * 
+ * 	Section Content
+ * 
+ * */
+/* line 97, ../sass/portfolio-v1-alpha-default.scss */
+#section-content {
+  position: relative;
+  z-index: 1;
+  min-height: 300px; }
+
+/*Slider*/
+/* line 100, ../sass/portfolio-v1-alpha-default.scss */
+#slider_home {
+  padding-top: 0;
+  margin: 0; }
+  /* line 102, ../sass/portfolio-v1-alpha-default.scss */
+  #slider_home .long-container {
+    padding-top: 0; }
+  /* line 103, ../sass/portfolio-v1-alpha-default.scss */
+  #slider_home .flexslider {
+    margin: 0;
+    border: none; }
+  /* line 109, ../sass/portfolio-v1-alpha-default.scss */
+  #slider_home .slides > li .title {
+    height: auto; }
+  /* line 110, ../sass/portfolio-v1-alpha-default.scss */
+  #slider_home .slides > li .sub-info {
+    top: 0; }
+    /* line 112, ../sass/portfolio-v1-alpha-default.scss */
+    #slider_home .slides > li .sub-info .inner {
+      margin: 15px; }
+    /* line 116, ../sass/portfolio-v1-alpha-default.scss */
+    #slider_home .slides > li .sub-info .date,
+    #slider_home .slides > li .sub-info .etat {
+      float: none;
+      font-size: 10px; }
+    /* line 118, ../sass/portfolio-v1-alpha-default.scss */
+    #slider_home .slides > li .sub-info .etat {
+      margin-bottom: 15px; }
+    /* line 119, ../sass/portfolio-v1-alpha-default.scss */
+    #slider_home .slides > li .sub-info .title {
+      float: none;
+      margin-bottom: 5px; }
+      /* line 121, ../sass/portfolio-v1-alpha-default.scss */
+      #slider_home .slides > li .sub-info .title h3 {
+        line-height: 23px;
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        margin-bottom: -2px; }
+        /* line 123, ../sass/portfolio-v1-alpha-default.scss */
+        #slider_home .slides > li .sub-info .title h3 a {
+          font-size: 18px; }
+
+/* line 129, ../sass/portfolio-v1-alpha-default.scss */
+.black-btn.slider-btn-all {
+  float: right;
+  margin-top: 20px; }
+
+/*avancees projets*/
+/* line 135, ../sass/portfolio-v1-alpha-default.scss */
+#avancees .item {
+  margin-bottom: 30px; }
+
+/* line 136, ../sass/portfolio-v1-alpha-default.scss */
+#avancees .last {
+  margin-bottom: 0; }
+
+/*tutos*/
+/* footer first */
+/* line 141, ../sass/portfolio-v1-alpha-default.scss */
+#region-footer-first li.arrow {
+  width: 20%; }
+
+/* line 142, ../sass/portfolio-v1-alpha-default.scss */
+#region-footer-first li.home_picto {
+  width: 12%; }
+
+/* line 143, ../sass/portfolio-v1-alpha-default.scss */
+#region-footer-first li.home_picto a {
+  background: url("../images/bkgd/home-picto.png") no-repeat scroll -12px center #FFFFFF;
+  background-color: #222222;
+  display: block;
+  height: 30px;
+  width: 22px;
+  padding: 0 10px; }
+
+/*
+ * 
+ * Page projet
+ * 
+ */
+/* line 150, ../sass/portfolio-v1-alpha-default.scss */
+.projet-pict {
+  margin-right: 10px; }
+
+/* line 151, ../sass/portfolio-v1-alpha-default.scss */
+.projetc-infos {
+  margin-left: 10px; }
+
+/*
+ * 
+ * Page projets
+ * 
+ */
+/* line 159, ../sass/portfolio-v1-alpha-default.scss */
+.page-node-5 .content {
+  margin-bottom: 10px; }
+
+/* line 160, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised {
+  margin-bottom: 0; }
+
+/* line 161, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised .left {
+  margin-right: 10px; }
+
+/* line 162, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised .right {
+  margin-left: 10px; }
+
+/* line 163, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised .sub-info {
+  height: 350px; }
+
+/* line 164, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised .sub-info .inner {
+  height: 320px;
+  margin: 15px; }
+
+/* line 165, ../sass/portfolio-v1-alpha-default.scss */
+#projects-realised .illustration {
+  height: 350px; }
+
+/*view view-liste-tutoriels*/
+/* line 168, ../sass/portfolio-v1-alpha-default.scss */
+.view-liste-tutoriels .views-row {
+  margin-bottom: 20px; }
+
+/* line 169, ../sass/portfolio-v1-alpha-default.scss */
+.view-liste-tutoriels .views-row-last,
+.view-display-id-block_1 .views-row {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=portfolio-v1-alpha-default.css.map */

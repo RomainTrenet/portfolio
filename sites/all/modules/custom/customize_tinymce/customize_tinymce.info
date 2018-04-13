@@ -1,0 +1,6 @@
+name = Customize TinyMCE Wysiwyg
+description = Helps you creating specifics styles and reals elements such as h2, h3, etc.
+core = 7.x
+dependencies[] = wysiwyg
+dependencies[] = imce
+;configure = admin/structure/field_maxlength_change

@@ -1,0 +1,30 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+/* line 8, ../sass/portfolio-v1-alpha-default-narrow.scss */
+h1 {
+  font: 30px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 9, ../sass/portfolio-v1-alpha-default-narrow.scss */
+h2, h2.block-title {
+  font: 24px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 10, ../sass/portfolio-v1-alpha-default-narrow.scss */
+h3 {
+  font: 18px 'ArvoRegular', Arial, sans-serif; }
+
+/* line 12, ../sass/portfolio-v1-alpha-default-narrow.scss */
+.small-content {
+  display: none !important; }
+
+/* line 13, ../sass/portfolio-v1-alpha-default-narrow.scss */
+.normal-content {
+  display: block !important; }
+
+/* line 15, ../sass/portfolio-v1-alpha-default-narrow.scss */
+#projects-realised .illustration,
+#projects-realised .sub-info {
+  height: 258px; }
+
+/*# sourceMappingURL=portfolio-v1-alpha-default-narrow.css.map */

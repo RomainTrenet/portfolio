@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactsNousContacter>
+
+	<titre><![CDATA[Plus de renseignements]]></titre>
+	
+	<texte><![CDATA[ESPERA Sbarro Montbéliard
+213 rue Pierre Marti
+BP 12106
+25462 ETUPES Cedex
+FRANCE
+
+Tél : 03 81 32 90 10 – Fax : 03 81 32 34 79
+Mail : contact@esperasbarro-montbeliard.com]]></texte>
+	
+	<image  url="images/contacts/nousContacter.jpg"/>
+
+</contactsNousContacter>

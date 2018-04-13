@@ -1,0 +1,16 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+//Tablet et up
+
+h1 { font: 30px 'ArvoRegular',Arial,sans-serif; }
+h2, h2.block-title { font: 24px 'ArvoRegular',Arial,sans-serif; }
+h3{font: 18px 'ArvoRegular', Arial, sans-serif; }
+
+.small-content{display:none!important;}
+.normal-content{display:block!important;}
+
+#projects-realised .illustration,
+#projects-realised .sub-info { height: 258px; }

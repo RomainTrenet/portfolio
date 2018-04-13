@@ -1,0 +1,8 @@
+name = PSB hooks
+description = This module is used to make PSB's hooks
+package = PSB
+core = 7.x
+
+;dependencies[] = registration
+
+version = "7.x-1"

@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implementation of hook_init().
+ */
+// function yourmodule_init() {
+    // dpm("init !");
+// }
+
+function css_js_theme_manage_preprocess_html(&$variables) {
+	//dpm(arg(0));
+	
+	// Add conditional stylesheets for admin pages on admin theme.
+	global $user;
+	
+	$check = array_intersect(array('Manager', 'Administrator'), array_values($user->roles));
+	if (empty($check) ? FALSE : TRUE) {
+		drupal_add_css(drupal_get_path('theme', 'acebi') . '/css/psb-admin.css', array('weight' => CSS_THEME));
+	}
+}

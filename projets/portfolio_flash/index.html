@@ -1,0 +1,80 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Portfolio Romain Trenet</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body onLoad="center();" onResize="center();">
+<div class="wide">
+	<div id="principal">
+	
+	<script language="javascript">
+		if (AC_FL_RunContent == 0) {
+			alert("Cette page nécessite le fichier AC_RunActiveContent.js.");
+		} else {
+			AC_FL_RunContent(
+				'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+				'width', '1100',
+				'height', '580',
+				'src', '01-chargement',
+				'quality', 'high',
+				'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+				'align', 'middle',
+				'play', 'true',
+				'loop', 'true',
+				'scale', 'showall',
+				'wmode', 'window',
+				'devicefont', 'false',
+				'id', '01-chargement',
+				'bgcolor', '#eeeeee',
+				'name', '01-chargement',
+				'menu', 'true',
+				'allowFullScreen', 'false',
+				'allowScriptAccess','sameDomain',
+				'movie', '01-chargement',
+				'salign', ''
+				); //end AC code
+		}
+	</script>
+	<script type="text/javascript">
+		function center(){
+			if (document.body){
+					var larg = (document.body.clientWidth);
+					var haut = (document.body.clientHeight);
+			}
+			else{
+				var larg = (window.innerWidth);
+				var haut = (window.innerHeight);
+			}
+			
+			var margeDroite=((larg-1150)/2);
+			var margeHaut=((haut-650)/2);
+			
+			if(window.innerWidth>1150){		
+				document.getElementById('principal').style.marginLeft=margeDroite;
+			}
+			if(window.innerWidth<1150){
+				document.getElementById('principal').style.marginLeft=0;
+			}
+			if(window.innerHeight>650){		
+				document.getElementById('principal').style.marginTop=margeHaut;
+			}
+			if(window.innerWidth<650){
+				document.getElementById('principal').style.marginTop=0;
+			}
+			
+		}
+	</script>
+	<noscript>
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="1100" height="580" id="01-chargement" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="allowFullScreen" value="false" />
+		<param name="movie" value="01-chargement.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#eeeeee" />	<embed src="01-chargement.swf" quality="high" bgcolor="#eeeeee" width="1100" height="580" name="01-chargement" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		</object>
+	</noscript>
+	</div>
+</div>
+</body>
+</html>

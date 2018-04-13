@@ -1,0 +1,27 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/* line 8, ../sass/portfolio-v1-alpha-default-normal.scss */
+h1 {
+  font: 36px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 9, ../sass/portfolio-v1-alpha-default-normal.scss */
+h2, h2.block-title {
+  font: 30px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 10, ../sass/portfolio-v1-alpha-default-normal.scss */
+h3 {
+  font: 24px 'ArvoRegular', Arial, sans-serif; }
+
+/* line 12, ../sass/portfolio-v1-alpha-default-normal.scss */
+#projects-realised .illustration,
+#projects-realised .sub-info {
+  height: 350px; }
+
+/* line 16, ../sass/portfolio-v1-alpha-default-normal.scss */
+#slider_home .flex-control-nav {
+  bottom: 5px;
+  right: 0;
+  width: 36%; }
+
+/*# sourceMappingURL=portfolio-v1-alpha-default-normal.css.map */

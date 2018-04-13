@@ -1,0 +1,19 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/* line 8, ../sass/portfolio-v1-alpha-default-wide.scss */
+h1 {
+  font: 48px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 9, ../sass/portfolio-v1-alpha-default-wide.scss */
+h2, h2.block-title {
+  font: 36px 'ArvoRegular',Arial,sans-serif; }
+
+/* line 10, ../sass/portfolio-v1-alpha-default-wide.scss */
+h3 {
+  font: 30px 'ArvoRegular', Arial, sans-serif; }
+
+/* line 12, ../sass/portfolio-v1-alpha-default-wide.scss */
+#projects-realised .illustration,
+#projects-realised .sub-info {
+  height: 440px; }
+
+/*# sourceMappingURL=portfolio-v1-alpha-default-wide.css.map */

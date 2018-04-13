@@ -1,0 +1,56 @@
+<projetsRealises>
+  <annee nom="2009">
+    <projet nom="Gecko">
+      <texte>Voici une des dernières réalisations des élèves de l’école Espera Sbarro Montbéliard promotion 2009 : le Projet Gecko.
+				
+Gecko offre un visage ludique et raffiné, orienté vers les loisirs et les grands espaces et met en avant la diversité des visions de l'automobile enseignées à l'école.</texte>
+      <image url="images/projetsRealises/2009Gecko/vignette/Gecko.jpg"/>
+      <galerie url="xml/projetsRealises/2009Gecko.xml"/>
+      <plaquette url="images/projetsRealises/2009Gecko/plaquette/afficheGecko.jpg"/>
+      <plusInfos>GECKO - Site en construction</plusInfos>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Le Circuit Dijon Prénois">http://www.circuit-dijon-prenois.com/</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Team Dynamics">http://www.teamdynamicsracing.com/</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Michelin">http://www.michelin.fr/michelinfr/index.jsp</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Recaro">http://www.recaro.com/</lien>
+    </projet>
+    <projet nom="Impact">
+      <texte>Voici la seconde réalisation : le Projet Impact.
+				
+Impact illustre parfaitement le nouvel accord de partenariat conclu entre la SEM FUTURA, porteuse de l'école ESPERA Sbarro Montbéliard et le Circuit automobile de Dijon Prenois, engagé dans la formation pour la filière automobile. 
+Impact sera amené à évoluer à de nombreuses reprises sur ce légendaire circuit pour la plus grande fierté des élèves.</texte>
+      <image url="images/projetsRealises/2009Impact/vignette/impact.jpg"/>
+      <galerie url="xml/projetsRealises/2009Impact.xml"/>
+      <plaquette url="images/projetsRealises/2009Impact/plaquette/afficheImpact.jpg"/>
+      <plusInfos>IMPACT - Site en construction</plusInfos>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Le Circuit Dijon Prénois">http://www.circuit-dijon-prenois.com/</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Team Dynamics">http://www.teamdynamicsracing.com/</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Michelin">http://www.michelin.fr/michelinfr/index.jsp</lien>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers Recaro">http://www.recaro.com/</lien>
+    </projet>
+  </annee>
+  <annee nom="1990">
+    <projet nom="TestSite">
+      <texte>Ceci est un test pour le site.</texte>
+      <image url="images/projetsRealises/1990testsite/vignette/vignette.jpg"/>
+      <galerie url="xml/projetsRealises/1990testsite.xml"/>
+      <plaquette url="images/projetsRealises/1990testsite/plaquette/affiche mulsanne a3.jpg"/>
+      <plusInfos>Ceci est un test pour le site.Voici du texte en plus.</plusInfos>
+      <optionLien>1</optionLien>
+      <lien nom="Lien vers google français">http://www.google.fr</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°2">Veuillez entrer votre lien HTTP n°2</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°3">Veuillez entrer votre lien HTTP n°3</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°4">Veuillez entrer votre lien HTTP n°4</lien>
+    </projet>
+  </annee>
+</projetsRealises>

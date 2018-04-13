@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contactsNousContacter>
+
+	<titre><![CDATA[Demande d'informations]]></titre>
+	
+	<texte>
+		<![CDATA[Pour toute demande de renseignements, vous pouvez envoyer un courrier électronique, soit en cliquant sur l'enveloppe si vous disposez d'un gestionnaire de mail soit en copiant l'adresse mail ci-dessous.]]>
+	
+		<![CDATA[Envoyer un courrier électronique : contact@esperasbarro-montbeliard.com]]>
+		
+	</texte>
+	
+	<image  url="images/contacts/demandeInfos.jpg"/>
+
+</contactsNousContacter>

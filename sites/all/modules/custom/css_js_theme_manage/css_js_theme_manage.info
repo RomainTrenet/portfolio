@@ -1,0 +1,4 @@
+name = CSS/JS theme manage
+description = Manage css and js programmatically files for your theme
+package = CSS/JS
+core = 7.x

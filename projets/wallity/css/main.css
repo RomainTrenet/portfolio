@@ -1,0 +1,77 @@
+/* v1.0 | 20080212 */
+@charset "UTF-8";
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+*{margin:0;padding:0;}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}/*Tout sauf IE*/
+.clearfix {display: inline-block;} /*Meme poid que le premier, donc annule le premier ?*/
+html[xmlns] .clearfix {display: block;}/* IE ne connait pas la balise, c'est pour les autres navigateur */
+* html .clearfix {height: 1%;}
+
+/*general*/
+body{ font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif; color:#999;}
+
+
+/*end general*/
+
+#global{
+	margin:0 auto; /*top bottom=0 et left right=auto ; à vérifier*/
+	
+	border-left:1px solid #AFAFAF;
+	border-right:1px solid #AFAFAF}
+
+/*header*/
+
+html, body { height:100%;}
+		/*body { margin:0; padding:0; overflow:hidden; }*/
+#flashContent { width:100%; height:100%;min-width:800px;background-color:#282828}

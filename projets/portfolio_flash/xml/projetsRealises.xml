@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projetsRealises>
+	<annee nom="2009">
+		<mois>
+			<projet_>
+				<titre><![CDATA[2011 – Preview Project]]></titre>
+				<texte><![CDATA[2011 – Preview Project
+Rôle : développeur flash
+
+Il s'agit d'un projet au sein de l'école Hetic. Le but était de créer un projet développé entièrement en POO en AS3, ayant pour thème d'être projeté sur un écran de cafétéria. 
+Ce projet est donc une galerie dont la navigation se fait par le mouvement des mains : seule une petit zone en hauteur capte les mouvements. Cette galerie montre les projets des élèves de l'Hetic. Ce projet n'est qu'au stade expérimental, mais pourrait bien un jour être adapté pour un autre projet !
+Dans une équipe de 5 personnes, j'ai travaillé en collaboration avec une graphiste, un développeur PHP pour la partie upload des projets présentés, et des ergonomes qui ont défini le fonctionnement de la galerie.]]></texte>
+				<image  url="images/projetsRealises/2011preview/2011preview.png"/>
+				<galerie url="http://www.mainmainduweb.fr/preview">no</galerie>
+			</projet_>
+		
+			<projet_>
+				<titre><![CDATA[2011 – Dépliant Renault Zoé ZE]]></titre>
+				<texte><![CDATA[2011 – Dépliant Renault Zoé ZE
+Rôle : graphiste
+
+Il s'agit d'un projet au sein de l'école Hetic. Nous devions réaliser un dépliant pour la nouvelle voiture électrique : la Renault Zoé ZE, à la manière du psychédélisme. Le lien étroit entre cette pub et le psychédélisme est le retour à la nature. J'ai donc réalisé ce dépliant avec des jeux de découpe. L'avant est une page découpée, l'intérieur se voit doté de deux prise électrique en relief : une mâle et une femelle qui s’intègre au reste du design.]]></texte>
+				<image  url="images/projetsRealises/2011renault/2011renault.png"/>
+				<galerie url="xml/projetsRealises/2011renault.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2010 – Wallity]]></titre>
+				<texte><![CDATA[2010 – Wallity
+Rôle : développeur flash
+
+Il s'agit d'un projet au sein de l'école Hetic. Nous devions choisir un sujet et en décliner un site : parmi les choix nous avons retenu l'infini. Nous avons donc réfléchi tous ensemble et avons pensé à un mur « infini » en 3D de personnes. Réalisé en deux semaines, ce projet n'était qu'un prototype mais nous le développons actuellement pour qu'il soit en rapport avec l'école Hetic et qu'il soit également optimisé au maximum.
+Ce projet servira donc de mur des anciens élèves de l'école. Le fait d'avoir eu un délai m'a appris qu'il fallait avoir toutes les clefs en mains et réfléchir à la mise en place jusqu'aux  détails les plus pointus avant de se lancer.]]></texte>
+				<image  url="images/projetsRealises/2010wallity/2010wallity.png"/>
+				<galerie url="http://www.mainmainduweb.fr/wallity">no</galerie>
+			</projet_>
+		
+			<projet_>
+				<titre><![CDATA[2009 - École Espera Sbarro]]></titre>
+				<texte><![CDATA[2009 - École Espera Sbarro
+Rôle : stagiaire prestataire
+
+Il s'agit de mon stage de fin de DUT, il s'est déroulé au sein de l'école Espera Sbarro située près de Montbéliard. J'étais en charge de reconstruire le site entant que prestataire. J'ai donc réalisé un site en full flash (AS3) avec gestionnaire AS3/PHP permettant de remplir des articles liés ou non à des galeries.
+Les attentes étaient avant tout de réaliser un site reflétant complètement l'image d'une école et non d'un musée (par rapport à la réputation de Franco Sbarro son fondateur) et de permettre une navigation simplifiée et facile à comprendre ainsi qu'une organisation des parties plus structurée et plus logique. De la refonte graphique à la gestion d'articles et de galeries, en passant par un menu personnalisé, ce site a tout d'un projet complet : gestion PHP du contenu (image, texte et fichier XML), animations pour un site non figé, suivi de projet par flux RSS, téléchargement de la plaquette de l'école, téléchargement de demande d'inscriptions, archive de projets...
+Ce projet fût un projet très complet et très enrichissant par le travail qu'il m'a demandé mais aussi par mes erreurs de choix. J'ai réussi ce pari, mais j'ai aussi appris qu'il était important de bien choisir les outils à utiliser.]]></texte>
+				<image  url="images/projetsRealises/2009sbarro/2009sbarro.png"/>
+				<galerie url="http://www.mainmainduweb.fr/stage">no</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2009 - Ô resto]]></titre>
+				<texte><![CDATA[2009 - Ô resto
+Rôle : graphiste (cartes menu, carte visite et logo)
+
+Ce projet est né en vue d'un projet collectif de deuxième année. Ils nous a permis à tous d'être en lien avec des clients externes attendant une solution en réponse à leur demande. Site reflétant l'image de l'établissement, image panoramique du restaurant, carte de visite, carte de menu, logotype personnalisé figurant sur la devanture...
+Notre équipe a réussi haut la main son pari. Je me suis personnellement occupé du logo, il fallut trouver un logo simple, visible rapidement depuis la route qui passe juste devant leur restaurant et reflétant une idée de restauration traditionnelle et régionale. L'établissement porte aujourd'hui ce logo sur la façade ainsi que dans les documents qui lui sont liés. Une autre partie dont j'ai en partie été en charge fut celle des cartes de menu. J'ai également réalisé la carte de visite qui se devait d'être facilement lisible et qui se devait de rappeler le restaurant en un clin d'oeil.]]></texte>
+				<image  url="images/projetsRealises/2009oresto/2009oresto.png"/>
+				<galerie url="xml/projetsRealises/2009oresto.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2008 – Lolita]]></titre>
+				<texte><![CDATA[2008 – Lolita
+Projet individuel
+
+C'est un projet pour le DUT SRC. L'idée était faire un site promotionnel en AS3 pour le film « Lolita » de Stanley Kubrick. Ce projet m'a permis d'apprendre la programmation en AS3, moi qui n'avait programmé pour flash qu'en AS2. Ce site m'a permis de voir qu'on pouvait être créatif, imaginer des animations et les mettre en place. Cela m'a également permis d'améliorer mes connaissances en algorithme et de découvrir des techniques et méthodes jusque là inconnues mais tellement indispensables...
+Dans ce projet j'ai donc eu à faire graphismes comme programmation.]]></texte>
+				<image  url="images/projetsRealises/2008lolita/2008lolita.png"/>
+				<galerie url="xml/projetsRealises/2008lolita.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2008 – Sophie Raconte ses Cabrioles]]></titre>
+				<texte><![CDATA[2008 – Sophie Raconte ses Cabrioles
+Rôle : Indéfinissable !
+
+C'est un projet 48h pour le DUT SRC. L'idée était de reprendre les initiales de SRC et d'en faire soit un site, soit un jeu vidéo, soit une vidéo.
+Nous avons donc choisi de faire une reprise des albums de « Martine » en version « Sophie » un peu plus « trash » et de les présenter dans un site en flash.
+Je me suis donc occupé en partie de trouver les jeux de mots sur la base des initiales SRC mais aussi de la mise en page des fausse couvertures. Une bonne expérience en groupe sur un projet à durée courte.]]></texte>
+				<image  url="images/projetsRealises/2008sophie/2008sophie.png"/>
+				<galerie url="xml/projetsRealises/2008sophie.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2008 – A Coup Faine]]></titre>
+				<texte><![CDATA[2008 – A Coup Faine
+Rôle : Graphiste
+
+Un nouvel essai entant que graphiste, destiné à une version flash. C'est un projet réalisé pour un groupe de musique folk de Belfort (90), qui s'est relativement mal passé pour moi puisque mon graphisme n'a pas été retenu à plusieurs reprises. Cependant, ce fût encore une bonne expérience en terme de relation client, j'en ai retenu beaucoup de leçons concernant l'organisation de mon travail.]]></texte>
+				<image  url="images/projetsRealises/2008aCoupFaine/2008aCoupFaine.png"/>
+				<galerie url="xml/projetsRealises/2008aCoupFaine.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2007 - Mon oncle]]></titre>
+				<texte><![CDATA[2007 - Mon oncle
+Projet individuel
+
+Mon premier projet en flash. Il s'agissait d'un travail pour le DUT SRC autour du film « Mon oncle » de Jacques Tatie. C'est un projet qui est programmé en Action Script 2 et qui m'a beaucoup appris en algorithme et en logique. C'est d'ailleurs le projet qui a été à l'origine de mon choix : celui de me diriger vers la programmation plutôt que vers le graphisme ou autre.]]></texte>
+				<image  url="images/projetsRealises/2007monOncle/2007monOncle.png"/>
+				<galerie url="xml/projetsRealises/2007monOncle.xml">yes</galerie>
+			</projet_>
+			
+			<projet_>
+				<titre><![CDATA[2006 – Aïkido Besançon]]></titre>
+				<texte><![CDATA[2006 – Aïkido Besançon
+Rôle : Graphiste
+
+Il faut bien débuter un jour ! Ceci est donc mon premier projet au sein de mon DUT SRC. C'est en partie grâce à ce projet que j'ai pu mettre en application les cours de graphisme. Même si avec le temps ce premier graphisme a mal vieilli, il en reste néanmoins une bonne expérience. Ce fût une réussite totale puisque l'équipe d'Aïkido de Besançon était très content du résultat.]]></texte>
+				<image  url="images/projetsRealises/2006aikido/2006aikido.png"/>
+				<galerie url="xml/projetsRealises/2006aikido.xml">yes</galerie>
+			</projet_>
+			
+		</mois>
+		
+		<enCours><![CDATA[Projets en cours :
+
+2011 - Ufolep
+De manière bénévole, je réalise un site avec Drupal pour l'équipe UFOLEP d'Appoigny (Yonne, 89) avec laquelle j'ai joué. Je réalise l'intégralité du travail à mes heures perdues : graphismes, programmation, et vais tenter de mettre en pratique mes cours de référencement, etc.
+Ce site devra leur permettre de pouvoir convoquer les joueurs par mail à la volée.
+
+2011 - Walletic
+À la suite d'un projet réalisé il y a quelques temps : wallity, nous sommes en charge de transposer ce site pour Hetic (Montreuil, 93) et ainsi créer le mur des héticiens en « 3D ».
+
+2011 - Quantaflow
+Au sein d'Hetic (Montreuil, 93), nous sommes en charge d'effectuer une refonte du site de l'entreprise Quantaflow, qui livre des solutions de comptage de flux (personnes, voitures dans les centres commerciaux). Il doit être multilingue et comporter des animations. Je suis en charge de réaliser la partie programmation : le site sera conçu à partir du CMS Wordpress.
+
+Projets à venir :
+
+- Refonte de mon portfolio vieillissant et peu ergonomique. Par manque de temps je dois encore m'en contenter ! Le but est de le faire en deux versions : d'une part un CMS Drupal pour les données et le référencement, d'autre part un deuxième frontend en Flash adapté au full screen. Les deux versions seront disponibles au choix.
+
+- Je compte éventuellement si le temps se présente, réaliser un site autour de la musique électronique, une de mes passions.]]>
+		</enCours>
+
+	</annee>
+</projetsRealises>

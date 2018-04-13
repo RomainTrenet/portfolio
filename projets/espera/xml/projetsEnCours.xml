@@ -1,0 +1,25 @@
+<projetsRealises>
+  <annee nom="2009">
+    <projet nom="Type Spyder">
+      <texte>Voici une des dernières réalisations des élèves de la promotion 2008-2009.
+Ce projet à l'allure bestiale sera dévoilé lors la journée de la Fête de l'école du 27 juin prochain.
+Vous pouvez déjà avoir un aperçu du travail dans la galerie en sélectionnant "Plus d'infos".
+Il sera accompagné d'un autre projet, gardé secret pour le moment...
+</texte>
+      <image url="images/projetsEnCours/2009Type Spyder/vignette/DSC01256.JPG"/>
+      <galerie url="xml/projetsEnCours/2009Type Spyder.xml"/>
+      <plusInfos>Voici une des dernières réalisations des élèves de la promotion 2008-2009.
+Ce projet à l'allure bestiale sera dévoilé lors la journée de la Fête de l'école du 27 juin prochain.
+Vous pouvez déjà avoir un aperçu du travail dans la galerie.
+Il sera accompagné d'un autre projet, gardé secret pour le moment...</plusInfos>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°1">http://</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°2">http://</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°3">http://</lien>
+      <optionLien>0</optionLien>
+      <lien nom="Lien n°4">http://</lien>
+    </projet>
+  </annee>
+ </projetsRealises>

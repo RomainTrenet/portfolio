@@ -1,0 +1,51 @@
+<?php
+
+
+
+/**
+ * Check if user is already registred
+ *
+ * @param object $info
+ *   Information about a registration type.
+ *
+ * @return array
+ *   An array of permission names and descriptions keyed by permission name.
+ */
+
+// function smarteo_hooks_form_alter(&$form, &$form_state) {
+// 	
+	// if (isset($form['#entity_type'])) {
+		// if ($form['#entity_type']=="registration") {
+			// hide($form['who_is_registering']);
+			// hide($form['who_message']);
+			// hide($form['anon_mail']);
+			// hide($form['user']);
+			// hide($form['actions']['cancel']);
+		// }
+	// }
+// }
+
+
+
+/**
+ * Implements hook_language_switch_links_alter().
+ */
+
+function psb_hooks_language_switch_links_alter(array &$links, $type, $path) {
+	//dpm($links);
+	foreach($links as $key => $link) {
+		$links[$key]['title'] = strtoupper($link['language']->language);
+	}
+}
+
+/**
+* Implements hook_entity_info_alter().
+ * 
+ * Create an other view mode for node that are referenced, so we can attach particular template (see preprocess)
+*/
+function psb_hooks_entity_info_alter(&$entity_info) {
+	$entity_info['node']['view modes']['reference'] = array(
+		'label' => t('Référence'),
+		'custom settings' => TRUE,
+	);
+}

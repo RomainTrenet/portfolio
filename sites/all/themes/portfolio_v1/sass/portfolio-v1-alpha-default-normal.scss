@@ -1,0 +1,21 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+
+//Desktop et up
+
+h1 { font: 36px 'ArvoRegular',Arial,sans-serif; }
+h2, h2.block-title { font: 30px 'ArvoRegular',Arial,sans-serif; }
+h3{font: 24px 'ArvoRegular', Arial, sans-serif; }
+
+#projects-realised .illustration,
+#projects-realised .sub-info { height: 350px; }
+
+#slider_home {
+    .flex-control-nav {
+        bottom: 5px;
+        right: 0;
+        width: 36%;
+    }
+}

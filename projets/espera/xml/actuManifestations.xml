@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actuManifestations>
+	<annee nom="2009">
+		<article nom="Journée ''découverte de l'école'' - Fête de l'école, le 27 juin 2009">
+			<texte>Cette journée aura lieu le 27 juin, de 12h à 19h.
+Entrée 2€, gratuit pour les moins de 12 ans.</texte>
+			<image  url="images/actualite_ecole/2009feteDeLEcole/vignette/2009feteDeLEcole.jpg"/>
+			<galerie url="xml/actuManifestations/20090610.xml"/>
+      		<plusInfos>Cette journée aura lieu le 27 juin, de 12h à 19h.
+Entrée 2€, gratuit pour les moins de 12 ans.</plusInfos>
+      		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien n°6">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1b">http://</lien>
+      		<optionLien>0</optionLien>
+      		<lien nom="Lien n°6b">http://</lien>
+		</article>
+		<article nom="Vente des véhicules 2007-2008">
+			<texte>L'école ESPERA SBARRO Montbéliard vends ses véhicules produits en 2007-2008.
+Genesis et Nemesis présentés au Salon de Genêve en 2008.
+Mulsanne et Katana présentés au Mondial de l'Auto. de Paris 2008.
+
+N.b. : Sur la vignette il s'agit de Genesis et Nemesis, vous pouvez avoir un aperçu de ces prototypes dans la galerie.Vous pouvez également retrouver Mulsanne et Katana dans l'article suivant.</texte>
+			<image  url="images/actualite_ecole/2009venteDesVehicules/vignette/DSC_1913.JPG"/>
+			<galerie url="xml/actuManifestations/2009venteDesVehicules.xml"/>
+      		<plusInfos>L'école ESPERA SBARRO Montbéliard vends ses véhicules produits en 2007-2008.
+Genesis et Nemesis présentés au Salon de Genêve en 2008.
+Mulsanne et Katana présentés au Mondial de l'Auto. de Paris 2008.
+
+N.b. : Sur la vignette il s'agit de Genesis et Nemesis, vous pouvez avoir un aperçu de ces prototypes dans la galerie.Vous pouvez également retrouver Mulsanne et Katana dans l'article suivant.</plusInfos>
+      		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien n°6">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1b">http://</lien>
+      		<optionLien>0</optionLien>
+      		<lien nom="Lien n°6b">http://</lien>
+		</article>
+		<article nom="Vente des véhicules 2007-2008">
+			<texte>L'école ESPERA SBARRO Montbéliard vends ses véhicules produits en 2007-2008.
+Mulsanne et Katana présentés au Mondial de l'Auto. de Paris 2008.
+Genesis et Nemesis présentés au Salon de Genêve en 2008.
+
+N.b. : Sur la vignette il s'agit de Mulsanne et Katana, vous pouvez avoir un aperçu de ces prototypes dans la galerie.Vous pouvez également retrouver Genesis et Nemesis dans l'article précédent.</texte>
+			<image  url="images/actualite_ecole/2009venteDesVehicules2/vignette/vignette.jpg"/>
+			<galerie url="xml/actuManifestations/2009venteDesVehicules2.xml"/>
+      		<plusInfos>L'école ESPERA SBARRO Montbéliard vends ses véhicules produits en 2007-2008.
+Mulsanne et Katana présentés au Mondial de l'Auto. de Paris 2008.
+Genesis et Nemesis présentés au Salon de Genêve en 2008.
+
+N.b. : Sur la vignette il s'agit de Mulsanne et Katana, vous pouvez avoir un aperçu de ces prototypes dans la galerie.Vous pouvez également retrouver Genesis et Nemesis dans l'article précédent.</plusInfos>
+      		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien n°6">http://</lien>
+     		<optionLien>0</optionLien>
+     		<lien nom="Lien vidéo 1b">http://</lien>
+      		<optionLien>0</optionLien>
+      		<lien nom="Lien n°6b">http://</lien>
+		</article>
+	</annee>
+</actuManifestations>

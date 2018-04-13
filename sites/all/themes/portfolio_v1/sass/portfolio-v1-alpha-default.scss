@@ -1,0 +1,170 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+
+
+
+//Tablet et up
+
+/*
+ * 
+ * 	Global
+ * 
+ * */
+
+/*Title*/
+h1{font: 36px 'ArvoRegular', Arial, sans-serif; color:#787878;}
+h2,
+h2.block-title{font: 30px 'ArvoRegular', Arial, sans-serif; color:#222222;margin-bottom:10px;}
+h3{font: 18px 'ArvoRegular', Arial, sans-serif; color:#222222;}
+h4{font: 14px 'ArvoRegular', Arial, sans-serif; color:#787878;}
+h5{}
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    -moz-border-bottom-colors: none;-moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none;-moz-box-sizing: border-box; background-clip: padding-box; background-color: #FFFFFF; border-color: #848484 #C1C1C1 #E1E1E1; border-image: none; border-radius: 0 0 0 0; border-style: solid; border-width: 1px; color: #222222; font:Verdana, Geneva, Arial, Helvetica, sans-serif;font-size:10px; height: 1.8em; outline: 0 none; padding: 2px 3px;}
+
+span.small-format-hiden{display:inline;}
+/*
+ * 
+ * 	Section User
+ * 
+ * */
+
+/* User */
+
+/*logged*/
+
+/*unlogged*/
+
+/*
+ * 
+ * 	Section Header
+ * 
+ * */
+#region-branding{ margin-bottom:30px; }
+#zone-branding-wrapper .branding-data{ width:100%;margin:0; }
+#zone-menu-wrapper{margin-bottom:25px;}
+#region-menu{height:30px;}
+#block-block-4 { position:absolute;top:8px;right:0;}
+#block-block-4 p { text-align:right; color:#ffffff;}
+#block-block-4 p a { color:#c4c4c4; }
+
+/* header menu */
+/* 1st level */
+#header_menu{ height: 30px;border:0;}
+#header_menu li { float: left;height:30px; }
+#header_menu li.home_picto{display:block;}
+#header_menu li.home_picto a {display:block;height:30px;width:22px;background:url("../images/bkgd/home-picto.png") no-repeat scroll 10px center #FFFFFF;}
+#header_menu li.clear{clear:both;height:30px;}
+#header_menu li a {height:30px;line-height:30px;padding: 0 10px;text-align:left;border:0;background-color: transparent;}
+#header_menu li:hover a{ cursor:pointer; background-color:#222222; color:#FFFFFF;}
+#header_menu li.active a, #header_menu li:hover a, * html #header_menu li a:hover {color:#FFFFFF;}
+#header_menu li.home_picto.active a, #header_menu li.home_picto:hover a, * html #header_menu li.home_picto a:hover{ background-position:-12px center;background-color:#222222;}
+
+ /* 2nd level */
+#header_menu li ul { position: absolute; top: 30px; padding-top:0; visibility: hidden; }
+#header_menu li li { width:220px; position: static; float: none; padding:0; border:0; font-size:0.8em;}
+#header_menu li li.second-menu-top,
+#header_menu li li.second-menu-bottom{display:block;background:url("../images/bkgd/submenu.png") no-repeat scroll 0 8px transparent;background-position:0 8; }
+#header_menu li li.second-menu-top{ height:30px;}
+#header_menu li li.second-menu-bottom{display:block;height:12px;background-position:0 -22px;padding:0;margin:O;}
+*+html #header_menu li li.second-menu-bottom { position:relative;top: -3px; }
+#header_menu li li a { padding:0px 10px; height:30px; width:200px; color:#FFFFFF !important; background-color:#222222;}
+#header_menu li:hover li a { color: #FFFFFF; }
+#header_menu li:hover li a, * html #header_menu li li a { color: #FFFFFF; }
+#header_menu li:hover li:hover a, * html #header_menu li li a:hover, * html #header_menu li li a.hasSubCategories:hover {background-color:#106879; }
+#header_menu li li div.wrapper { position: relative; }
+
+/* common visibility */
+#header_menu li:hover li ul,  
+#header_menu li:hover li:hover li ul,
+#header_menu li:hover li:hover li:hover li ul,
+#header_menu li:hover li:hover li:hover li:hover li ul {  
+  visibility: hidden;
+}
+
+#header_menu li:hover ul,
+#header_menu li:hover li:hover ul {  
+  visibility: visible;
+}
+
+
+/*
+ * 
+ * 	Section Content
+ * 
+ * */
+
+#section-content{position:relative;z-index:1;min-height: 300px;}
+
+/*Slider*/
+#slider_home{
+    padding-top:0;margin:0;
+    .long-container{ padding-top:0; }
+    .flexslider {
+        margin: 0;
+        //background: #ffffff;
+        border: none;
+    }
+    .slides > li {
+        .title{ height:auto;}
+        .sub-info{
+            top:0;
+            .inner{
+                margin:15px;
+                //height:320px;
+            }
+            .date,
+            .etat{float:none;font-size:10px;}
+            .etat{margin-bottom:15px;}
+            .title{
+                float:none;margin-bottom: 5px;
+                h3 {
+                    line-height:23px; font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; margin-bottom: -2px;
+                    a{ font-size:18px;}
+                }
+            }
+        }
+    }
+}
+.black-btn.slider-btn-all{
+    float:right;margin-top: 20px;
+}
+  
+
+/*avancees projets*/
+#avancees .item { margin-bottom:30px; }
+#avancees .last { margin-bottom:0; }
+
+/*tutos*/
+
+/* footer first */
+#region-footer-first li.arrow {width:20%;}
+#region-footer-first li.home_picto {width:12%; }
+#region-footer-first li.home_picto a {background:url("../images/bkgd/home-picto.png") no-repeat scroll -12px center #FFFFFF;background-color:#222222;display:block;height:30px;width:22px;padding:0 10px;}
+
+/*
+ * 
+ * Page projet
+ * 
+ */
+.projet-pict{ margin-right:10px; }
+.projetc-infos{ margin-left:10px; }
+.project-body{ }
+
+/*
+ * 
+ * Page projets
+ * 
+ */
+.page-node-5 .content {margin-bottom:10px;}
+#projects-realised {margin-bottom: 0;}
+#projects-realised .left {margin-right:10px;}
+#projects-realised .right {margin-left:10px;}
+#projects-realised .sub-info { height: 350px;}
+#projects-realised .sub-info .inner {height: 320px;margin: 15px;}
+#projects-realised .illustration {height: 350px;}
+
+/*view view-liste-tutoriels*/
+.view-liste-tutoriels .views-row{margin-bottom:20px;}
+.view-liste-tutoriels .views-row-last,
+.view-display-id-block_1 .views-row{margin-bottom:0;}
